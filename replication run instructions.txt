@@ -1,0 +1,21 @@
+﻿Replication project run instructions
+
+1. Install dependencies:
+
+npm install
+
+2. Start the development server:
+
+npm.cmd run dev
+
+3. Open the URL printed by Vite, usually:
+
+http://127.0.0.1:5173
+
+4. Optional build check:
+
+npm.cmd run build
+
+Notes:
+- node_modules is intentionally not uploaded to GitHub.
+- dist is intentionally not uploaded because it can be regenerated with npm.cmd run build.
